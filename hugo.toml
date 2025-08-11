@@ -1,3 +1,21 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://azhao1981.github.io'
+languageCode = 'zh-cn'
+title = 'AzhaO的BLOG'
+theme = 'hugo-book'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+# Hugo Book 主题配置
+[params]
+BookSearch = true
+BookComments = false
+BookPortableLinks = true
+BookServiceWorker = true
+
+# 多语言支持
+[languages]
+[languages.zh-cn]
+languageName = '中文'
+contentDir = 'content'
+weight = 10
